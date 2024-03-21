@@ -34,7 +34,7 @@ h6,
     overflow: hidden;
   }
   .container {
-    /* or max-width: 1158px */
+  
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
@@ -63,7 +63,10 @@ address {
 
 /* ===========header========== */
 
-
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -73,8 +76,6 @@ address {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-
-
 
 .header-logo-studio {
     color: #2e2f42;
@@ -91,10 +92,6 @@ address {
 .header-menu-list a:focus {
     color: #404bbf;
 }
-
-
-   
-
 
 .contacts {
     font-style: normal;
@@ -113,13 +110,21 @@ address {
     color: #404bbf;
 }
 
-
 /* =========hero============= */
 .hero {
+    margin-bottom: 120px;    
     background-color: #2e2f42;
 }
+
+.hero-wrap {
+    padding-top: 188px;
+    padding-bottom: 188px;    
+
+}
+
 .hero-title {
-  
+    max-width: 496px;
+    margin: 0 auto;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -127,6 +132,8 @@ address {
     text-align: center;
     color: #fff;
     background: #2e2f42;
+    margin-bottom: 32px;
+   
 }
 
 
@@ -146,6 +153,10 @@ address {
 }
 
 /* ============categories======== */
+.categories {
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
 
 .categories-subtitle {
     font-weight: 500;
@@ -170,9 +181,12 @@ address {
 /* ===============team========== */
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .team-title {
-
+    max-width: 162px;
+    margin: 0 auto;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -180,6 +194,7 @@ address {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .team-item {
     background-color: #FFFFFF;
