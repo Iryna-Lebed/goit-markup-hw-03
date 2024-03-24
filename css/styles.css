@@ -167,12 +167,9 @@ address {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background: #4d5ae5;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    
+    background: #4d5ae5; 
+ 
+}
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -192,10 +189,18 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 
 }
 .categories-list {
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
+}
+
+.categories-item {
+   width: calc((100% - 3 * 24px) / 4);
+   padding: 28px 23;
 }
 
 .categories-text {
@@ -212,6 +217,12 @@ address {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
 .team-title {
     max-width: 162px;
     margin: 0 auto;
@@ -226,6 +237,8 @@ address {
 }
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-subtitle {
