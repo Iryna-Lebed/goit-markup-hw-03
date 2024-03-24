@@ -67,6 +67,17 @@ address {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
+.header-container {
+    display: flex;
+}
+
+.header-navigatoin {
+    display: flex;
+    flex-grow: 1;
+ 
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -75,6 +86,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-logo-studio {
@@ -88,6 +100,12 @@ address {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+}
+
 .header-menu-list a:hover,
 .header-menu-list a:focus {
     color: #404bbf;
@@ -95,6 +113,11 @@ address {
 
 .contacts {
     font-style: normal;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }
 
 .address {
@@ -118,13 +141,14 @@ address {
 
 .hero-wrap {
     padding-top: 188px;
-    padding-bottom: 188px;    
+    padding-bottom: 188px;
+
 
 }
 
 .hero-title {
     max-width: 496px;
-    margin: 0 auto;
+    margin: 0 auto;   
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -143,9 +167,13 @@ address {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-  
     background: #4d5ae5;
-}
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    
+
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404BBF;
@@ -218,6 +246,12 @@ address {
     color: #434455;
 }
 /* =============portfolio======== */
+
+.our-portfolio {
+    margin-bottom: 120px;
+    margin-top: 120px;
+}   
+}
 
 .portfolio-title{
   
