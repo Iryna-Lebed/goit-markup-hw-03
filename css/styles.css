@@ -21,7 +21,7 @@ h6,
 }
 
 img {
-    display: block
+    display: block;
 }
 
 image {
@@ -74,7 +74,7 @@ address {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -126,8 +126,9 @@ address {
 }
 
 .contacts {
+    display: flex;
     font-style: normal;
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .contacts-list {
@@ -152,7 +153,7 @@ address {
 .hero {
     margin-bottom: 120px;    
     background-color: #2e2f42;
-    padding: 188px 0
+    padding: 188px 0;
 }
 
 .hero-wrap {
@@ -181,7 +182,12 @@ address {
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5; 
- 
+    display: block; 
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
 .hero-btn:hover,
