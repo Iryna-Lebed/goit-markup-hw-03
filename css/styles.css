@@ -304,6 +304,12 @@ address {
     margin-bottom: 32px;
 }
 
+.portfolio-contant {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+
+}
 
 .portfolio-title{
   
@@ -315,6 +321,7 @@ address {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    
 }
 
 .portfolio-list {
@@ -354,6 +361,7 @@ address {
 .footer {
     background: #2e2f42;
     display: flex;
+    padding: 100px 0;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -363,6 +371,8 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px; 
     
 }
 .footer-text {
